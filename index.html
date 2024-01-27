@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE CULTURE</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_KVIOqM1KGXMeSuAdcfsaa");
+        })();
+    </script>
+
+ 
+
+  </head>
+
+<body>
+
+    <div class="landing_page" id="landing_page" >
+
+        <div class="nav" id="nav" style="text-align: center;  position:static"   >
+         <a  href="#avant" id="av"  style="padding : 30px;  font-size:15px; margin-right: 5px; display: inline-block;  text-align: center;  ">Burkina Faso </a>
+          <a  href="#terrorisme" id="ter" style="padding :30px; margin-right:5px; font-size: 15px; display: inline-block; text-align: center; ">Terrorisme</a> 
+           <a href="#combat"  id=" cmb" style="padding : 30px; margin-right:5px;  font-size: 15px; display: inline-block; text-align:center;">Combat pour la liberté</a> 
+           <a   href="#espoir" id="esp" style="padding:30px; margin-right: 5px; font-size: 15px; display: inline-block; text-align: center;  ">Lueur d'espoir</a>
+            
+
+          </div>
+
+          <div class="home" id="avant">
+            <video loop  id="video_background" poster="images/Warba.jpeg" style="margin-top: 150px;">
+              <source src="./videos/Burkina.mp4" type="video/mp4">
+            </video>
+
+            <div class="home-content">
+              <button id="myBtn" onclick="myFunction()">Pause</button>
+
+            </div>
+          </div>
+    
+        </div>
+
+
+        
+
+         
+
+        <script>
+
+          $(document).ready(function(){$("img").click(function(){this.requestFullscreen()})});
+
+        </script>
+        
+      
+
+
+
+
+<div class="home1" >
+
+
+  <div class="hero__title"  style="margin-top:750px; margin-left:0px;" id="terrorisme">
+  
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <strong>LES ENNNEMIS DU FASO</strong>
+  </div>
+  
+  <video loop  id="video_background1" style="margin-top: 500px;" poster="images/10.jpeg">
+
+    <source src="./videos/Terrorisme.mp4" type="video/mp4" >
+  </video>
+
+  <div class="home-content" >
+    <button id="btn2" onclick="test()"  style="margin-top: 500px;">Pause</button>
+
+  </div>
+  
+</div>
+
+</div>
+
+<script>
+  // Get the video
+  var video1 = document.getElementById("video_background1");
+  // Get the button
+  var btn = document.getElementById("btn2");
+  // Pause and play the video, and change the button text
+  function test() {
+    if (video1.paused) {
+      video1.play();
+      btn.innerHTML = "Pause";
+    } else {
+      video1.pause();
+      btn.innerHTML = "Play";
+    }
+  }
+  </script>
+ 
+
+ <br><br><br>
+
+
+
+ 
+
+ <div class="home2" style="margin-top:800px;" id="combat">
+  
+  <div class="hero__title"  style="margin-top:1700px; margin: left 300px;" >
+    <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+    <strong>LES DEFENSEURS DU FASO</strong></div>
+
+  <video loop  id="video_background3" style="margin-top: -100px;" poster="images/8.jpeg">
+    <source src="./videos/Combat.mp4" type="video/mp4">
+  </video>
+
+  <div class="home-content">
+    <button id="btn3" onclick="ex()"  style="margin-top:-100px;">Pause</button>
+
+  </div>
+
+  </div>
+  <script>
+    // Get the video
+    var video2 = document.getElementById("video_background3");
+    // Get the button
+    var btn = document.getElementById("btn3");
+    // Pause and play the video, and change the button text
+    function ex() {
+      if (video2.paused) {
+        video2.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video2.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+
+    
+
+
+<div class="home3" style="margin-top:930px;" id="espoir">
+  <div class="hero__title"  style="margin-top:2650px; margin-left:0px;" >
+      <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <strong>LUEUR D'ESPOIR</strong>
+  </div>
+
+  <video loop  id="video_background4" style="margin-top:-250px" poster="images/7.jpeg">
+
+    <source src="./videos/espoir.mp4" type="video/mp4">
+  </video>
+
+  <div class="home-content" >
+    <button id="btn4" onclick="ex1()"  style="margin-top:-250px;">Pause</button>
+
+  </div>
+
+  </div>
+  <script>
+    // Get the video
+    var video3 = document.getElementById("video_background4");
+    // Get the button
+    var btn = document.getElementById("btn4");
+    // Pause and play the video, and change the button text
+    function ex1() {
+      if (video3.paused) {
+        video3.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video3.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+
+
+
+
+   
+        
+
+
+
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+   *
+   {
+     margin: 0;
+     padding: 0;
+     overflow:auto;
+     overflow:initial;
+  }
+
+  @media (min-aspect-ratio:16/9) {
+    
+    .video-background{
+
+        width:500%;
+        height: auto;
+
+    }
+  }
+
+  @media (max-aspect-ratio:16/9) {
+    
+    .video-background{
+
+        width:auto;
+        height: 500%;
+        
+    }
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotate {
+	0% {
+		transform: rotateY(90deg);
+	}
+	
+	47%, 53% {
+		transform: rotateY(270deg);
+	}
+	
+	94%, 100% {
+		transform: rotateY(450deg);
+	}
+}
+
+
+
+.span{
+  display: inline-block;
+  font-weight: bolder;
+  animation:mover 6s linear infinite;
+
+}
+
+@keyframes mover{
+
+  0%{
+
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0)
+  }
+
+  50%{
+
+text-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
+transform:translatex(30px)
+}
+
+100%{
+
+text-shadow: 0 0 30px rgba(0, 0, 0, 0)
+}
+}
+
+.nav{
+
+  background-image: linear-gradient(to right, #FFFFFF , #9FA4C4);
+  overflow: hidden;
+}
+
+.nav a{
+
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight:bolder;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Adding an active class to highlight the current page */
+.nav a.active {
+  background-color:#FFFFFF;
+  color:black;
+}
+
+.heading{
+  text-align:center; 
+}
+
+.content{
+  font-size: 20px; 
+}
+
+/*using media queries to make it responsive  */
+
+@media only screen and (max-width : 200px) {
+   .nav {
+float:left;
+}
+}
+
+.home {
+    height: 100vh;
+    position: relative;
+}
+video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.home-content {
+    position: relative;
+    padding-top: 150px;
+    color: #fff;
+    text-align: center;
+}
+h1 {
+    font-family: Playfair Display, serif;
+    font-size: clamp(45px, 7vw, 130px);
+    line-height: 1.1;
+}
+
+.home p {
+    font-size: clamp(25px, 4vw, 40px);
+    margin-top: 10px;
+}
+
+.home-content button {
+    display: block;
+    font-size: clamp(14px, 1.5vw, 18px);
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    margin: 50px auto 0;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.hero {
+  background-color: #FFFF;
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.hero__title {
+  color: #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size:20px;
+  z-index: 1;
+  margin-top:-280px;
+}
+
+.cube {
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px #003298;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+          transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  -webkit-animation: cube 15s ease-in forwards infinite;
+          animation: cube 15s ease-in forwards infinite;
+}
+
+.cube:nth-child(2n) {
+  border-color: #0051f4;
+}
+
+.cube:nth-child(2) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  left: 25vw;
+  top: 40vh;
+}
+
+.cube:nth-child(3) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  left: 75vw;
+  top: 50vh;
+}
+
+.cube:nth-child(4) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  left: 90vw;
+  top: 10vh;
+}
+
+.cube:nth-child(5) {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  left: 10vw;
+  top: 85vh;
+}
+
+.cube:nth-child(6) {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  left: 50vw;
+  top: 10vh;
+}
+
+@-webkit-keyframes cube {
+  from {
+    -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+            transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(20) rotate(960deg) translate(-50%, -50%);
+            transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+@keyframes cube {
+  from {
+    -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+            transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(20) rotate(960deg) translate(-50%, -50%);
+            transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+
+<script>
+  // Get the video
+  var video = document.getElementById("video_background");
+  // Get the button
+  var btn = document.getElementById("myBtn");
+  // Pause and play the video, and change the button text
+  function myFunction() {
+    if (video.paused) {
+      video.play();
+      btn.innerHTML = "Pause";
+    } else {
+      video.pause();
+      btn.innerHTML = "Play";
+    }
+  }
+  </script>
